@@ -1,0 +1,49 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px;
+}
+
+.card__icon {
+    font-size: 40px;
+    float: left;
+    padding-right: 8px;
+}
+
+.card__quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card__autor {
+    text-align: end;
+    padding: 10px;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    width: 40px;
+    aspect-ratio: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 0 4px #0005;
+
+
+}
+
+.btn {
+    box-shadow: 0 0 10px #0005;
+    transform: scale(1.05);
+}
